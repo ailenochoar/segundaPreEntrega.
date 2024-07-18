@@ -1,0 +1,69 @@
+.encabezado .boton {
+    display: none;
+}
+
+/* Banner */
+
+.bannerjpg,
+.Banner,
+.bannerContenido p {
+    font-size: 2.5rem;
+}
+
+/* Equipo */
+
+.contenedorequipo {
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Footer */
+
+.footerContenido {
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Equipo */
+
+.equipo {
+    margin: 5vh;
+    font-size: 2rem;
+
+    h3 {
+        font-size: inherit;
+    }
+}
+
+equipo p {
+    font-size: inherit;
+}
+
+.contenedorEquipo {
+    grid-template-columns: 1fr 1fr;
+}
+
+.contendorServicios {
+    flex-direction: column;
+}
+
+/* Footer */
+
+.footerContenido {
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Ajustes especificos para la vista mobile*/
+/*0 hasta 768px*/
+
+@media (max-widht: 768px) {
+    /* Equipo */
+
+    .contenedorequipo {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contendorServicios {
+    grid-template-columns: 1fr;
+}
